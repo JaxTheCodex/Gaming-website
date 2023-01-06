@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-image: url('Images/ps4-controller-playstation-4-controller-gamepad-game-3840x2160-8380.png');
+    background-repeat:repeat;
+	background-attachment:fixed;
+	overflow:scroll;
+}
+.content-fluid{
+    background-color: black;
+}
+.content{
+    background-image: url('Images/extra/wallpaperflare.com_wallpaper\(1\).jpg');
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-size: cover;
+}.icons{
+    float: right;
+    width:190px;
+}
+.icons a{
+    padding-left: 25px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.icons img:hover{
+    box-shadow: 0 0 20px red;
+}
+::placeholder{
+    color: red;
+    opacity: 1;
+}
+.search img{
+    height:20px;
+    width:20px;
+    margin-bottom: 5px;
+}
+.search img:hover{
+    box-shadow: 0 0 10px red;
+}
+.login{
+    height: 400px;
+    width: 200px;
+}
+.neon-light{
+    position:relative;
+    background-image: url('Images/spider-man-miles-morales-pc-games-playstation-4-playstation-3840x2160-8283.png');
+    width: 900px;
+    background-size: cover;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+.png{
+    height:200px;
+    width:200px;
+    background-image: url('Images/—Pngtree—assasin\ gaming\ logo\ with\ sword_8209331.png');
+    background-size: cover;
+}
+.png h4{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 180px;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+#t1{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000;
+    animation:ani 10s linear infinite;
+}
+@keyframes ani{
+    10%{
+        text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000; 
+    }
+    20%{
+        text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;  
+    }
+    40%{
+        text-shadow: 0 0 10px #1e00ff,
+        0 0 20px #1e00ff,
+        0 0 40px #1e00ff,
+        0 0 80px #1e00ff,
+        0 0 120px #1e00ff;   
+    }
+    75%{
+        text-shadow: 0 0 10px #15ff00,
+    0 0 20px #15ff00,
+    0 0 40px #15ff00,
+    0 0 80px #15ff00,
+    0 0 120px #15ff00; 
+    }
+    95%{
+        text-shadow: 0 0 10px #ffff00,
+    0 0 20px #ffff00,
+    0 0 40px #ffff00,
+    0 0 80px #ffff00,
+    0 0 120px #ffff00; 
+    }
+}
+#t1:hover{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+.head{
+    text-align: center;
+}
+.head b{
+    color: #ff0000;
+}
+.head i{
+    color: #1e00ff;
+}
+.sec-1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.image-box1{
+    width: 40%;
+    height: auto;
+}
+#img1{
+    height: 300px;
+    width:500px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.para-1{
+    width:60%;
+    margin-top: 40px;
+    color: #fff;
+}
+.box-page2 h3{
+    color: #fff;
+
+}
+.para-1 h3{
+    text-align: center;
+}
+.sec-2{
+    width:auto;
+    margin-left:40px;
+    margin-right:40px;
+    background-size: cover;
+}
+.sec-2 h3{
+    text-align: center;
+}
+.sec-2 p{
+    color:#fff
+}
+.para-2{
+    color: #fff;  
+}
+.system{
+    color:#fff;
+    margin-left: 40px;
+    margin-right: 40px;
+}

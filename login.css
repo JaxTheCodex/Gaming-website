@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.content-fluid{
+    background-color: black;
+}
+.content{
+    background-image: url('Images/extra/wallpaperflare.com_wallpaper\(1\).jpg');
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-size: cover;
+}.icons{
+    float: right;
+    width:190px;
+}
+.icons a{
+    padding-left: 25px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.icons img:hover{
+    box-shadow: 0 0 20px red;
+}
+::placeholder{
+    color: red;
+    opacity: 1;
+}
+.search img{
+    height:20px;
+    width:20px;
+    margin-bottom: 5px;
+}
+.search img:hover{
+    box-shadow: 0 0 10px red;
+}
+.login{
+    height: 400px;
+    width: 200px;
+}
+.neon-light{
+    position:relative;
+    background-image: url('Images/spider-man-miles-morales-pc-games-playstation-4-playstation-3840x2160-8283.png');
+    width: 900px;
+    background-size: cover;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+.png{
+    height:200px;
+    width:200px;
+    background-image: url('Images/—Pngtree—assasin\ gaming\ logo\ with\ sword_8209331.png');
+    background-size: cover;
+}
+.png h4{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 180px;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+#t1{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000;
+    animation:ani 10s linear infinite;
+}
+@keyframes ani{
+    10%{
+        text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000; 
+    }
+    20%{
+        text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;  
+    }
+    40%{
+        text-shadow: 0 0 10px #1e00ff,
+        0 0 20px #1e00ff,
+        0 0 40px #1e00ff,
+        0 0 80px #1e00ff,
+        0 0 120px #1e00ff;   
+    }
+    75%{
+        text-shadow: 0 0 10px #15ff00,
+    0 0 20px #15ff00,
+    0 0 40px #15ff00,
+    0 0 80px #15ff00,
+    0 0 120px #15ff00; 
+    }
+    95%{
+        text-shadow: 0 0 10px #ffff00,
+    0 0 20px #ffff00,
+    0 0 40px #ffff00,
+    0 0 80px #ffff00,
+    0 0 120px #ffff00; 
+    }
+}
+#t1:hover{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+.main{
+    background-image: url('Images/wallpaperflare.com_wallpaper\(2\).jpg');
+    background-size: cover;
+}
+.main h4{
+    text-align: center;
+    color:red;
+    background-image: linear-gradient(to right,rgba(18, 17, 17, 0.758),black);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.login-card{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 600px;
+    width:800px;
+    border-radius: 25px;
+    border: 2px solid red;
+    margin-left: 350px;
+    background-color: rgba(0, 0, 0, 0.724);
+    box-shadow: 0 0 30px red;
+}
+.login-card h4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    border-radius:px;
+    text-shadow: 0 0 5px red;
+}
+.in{
+    margin-left: 200px;
+}
+#bt1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:red;
+    background-color:rgba(0, 0, 0, 0.722);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 10px;
+    border: 2px solid #ff0000;
+    box-shadow: 0 0 30px red; 
+}
+.login-card img{
+    height: 200px;
+    width: 200px;
+    margin-left: 300px;
+}
+.login-card input{
+    width:400px;
+}
+#bt1:hover{
+    color: #1e00ff;
+    letter-spacing: 3px;
+}
+#bt2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:red;
+    background-color:rgba(0, 0, 0, 0.722);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+    border: 2px solid #ff0000;
+    box-shadow: 0 0 30px red; 
+}
+#bt2:hover{
+    color: #1e00ff;
+    letter-spacing: 3px;
+}
+.button{
+    display:flex;
+    flex-direction: row;
+}
+

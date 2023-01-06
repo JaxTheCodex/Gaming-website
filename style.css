@@ -1,0 +1,439 @@
+*{
+    margin:0;
+    padding:0;
+}
+.content-fluid{
+    background-color: black;
+}
+.content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-size: cover;
+}
+
+.content2{
+    background-image: url('Images/wallpaperflare.com_wallpaper\(1\).jpg');
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom:100px;
+    background-size: cover;
+}
+.icons{
+    float: right;
+    width:190px;
+}
+.icons a{
+    padding-left: 25px;
+}
+.icons img{
+    height: 25px;
+    width: 25px;
+}
+.icons img:hover{
+    box-shadow: 0 0 20px red;
+}
+::placeholder{
+    color: red;
+    opacity: 1;
+}
+.search img{
+    height:20px;
+    width:20px;
+    margin-bottom: 5px;
+}
+.search img:hover{
+    box-shadow: 0 0 10px red;
+}
+.login{
+    height: 400px;
+    width: 200px;
+}
+#bt1{
+    height:30px;
+    width:100px;
+    background-color: #00aeff;
+    border-radius: 15px;
+    border: 2px solid blue;
+    margin-left: 650px;
+    margin-top: 10px;
+}
+#bt2{
+    height:30px;
+    width:100px;
+    background-color: #00aeff;
+    border-radius: 15px;
+    border: 2px solid blue;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#bt1:hover{
+    background-color: #15ff00;
+    color: #1e00ff;
+}
+#bt2:hover{
+    background-color: #15ff00;
+    color: #1e00ff;
+}
+.content-box1{
+    height:500px;
+    width:250px;
+    background-image: url('Images/13d4664be1745c84dde7b46f3f54d70a.jpg');
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px rgb(30, 100, 180);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left:40px;
+    overflow: hidden;
+    transition:  all 1s ease;
+    
+}
+.content-box1:hover{
+    animation: content1 5s linear infinite;
+}
+.content-box2:hover{
+    animation: content2 5s linear infinite;
+}
+.content-box3:hover{
+    animation: content3 5s linear infinite;
+}
+.content-box4:hover{
+    animation: content4 5s linear infinite;
+}
+@keyframes content1{
+    30%{
+        background-image:url('Images/extra/V.jpg');
+        background-size: cover;
+    }
+    60%{
+        background-image: url('Images/extra/sm.grand-theft-auto-v-01.750.jpg');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('Images/extra/448_3840.0.jpg');
+        background-size: cover;
+    }
+}
+@keyframes content2{
+    50%{
+        background-image: url('Images/extra/bf30e649ac9b429756639695573b0d90.jpg');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('Images/extra/eb6e07f7c366c2f53141c20dac88d187.jpg');
+        background-size: cover;
+    }
+}
+@keyframes content3{
+    30%{
+        background-image:url('Images/extra/451308.webp');
+        background-size: cover;
+    }
+    60%{
+        background-image: url('Images/extra/320623.png');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('Images/extra/HD-wallpaper-assassins-creed-assasins-assassin-game-origins-thumbnail.jpg');
+        background-size: cover;
+    }
+}
+@keyframes content4{
+    50%{
+        background-image: url('Images/extra/20484.jpg');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('Images/extra/kratos-4aiwryfubx7pdhga.jpg');
+        background-size: cover;
+    }
+}
+.content-box2{
+    height:500px;
+    width:250px;
+    background-image: url('Images/5538387.jpg');
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px rgb(30, 100, 180);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left:40px;
+    overflow: hidden;
+    transition:  all 1s ease;
+}
+.content-box3{
+    height:500px;
+    width:250px;
+    margin-left: 50px;
+    background-image: url('Images/8337c81c7299d6deb4e3b59117620add.jpg');
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px rgb(30, 100, 180);
+    background-size: cover;
+    border-radius: 20px;
+    margin-left:40px;
+    overflow: hidden;
+    transition:  all 1s ease;
+}
+.content-box4{
+    height:500px;
+    width:250px;
+    margin-left: 50px;
+    background-image: url('Images/wp5789670.jpg');
+    box-sizing: border-box;
+    border: 2px solid white;
+    box-shadow: 10px 20px 20px rgb(30, 100, 180);
+    background-size: cover;
+    border-radius: 20px;
+    margin-right:40px;
+    overflow: hidden;
+    transition:  all 1s ease;
+}
+.content-box1:hover{
+    transform: scale(1.102);
+    box-sizing: border-box;
+    box-shadow: 2px 3px 2px 3px red;
+}
+.content-box2:hover{
+    transform: scale(1.102);
+    margin-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 2px 3px red;
+}
+.content-box3:hover{
+    transform: scale(1.102);
+    margin-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 2px 3px red;
+}
+.content-box4:hover{
+    transform: scale(1.102);
+    margin-left: 50px;
+    box-sizing: border-box;
+    box-shadow: 2px 3px 2px 3px red;
+}
+.content-box1 img:hover{
+    height:520px;
+    width:270px;
+}
+.content-box2 img{
+    height:520px;
+    width:270px;
+}
+.content-box3 img{
+    height:520px;
+    width:270px;
+}
+.content-box4 img{
+    height:520px;
+    width:270px;
+}
+.content-box1 input{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box2 input{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box3 input{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box4 input{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: black;
+    color: white;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box1 input:hover{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: yellow;
+    box-shadow: 3px 4px 3px blue;
+    color: blue;
+    text-shadow:1px 1px 1px #1e00ff;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box2 input:hover{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: yellow;
+    box-shadow: 3px 4px 3px blue;
+    color: blue;
+    text-shadow:1px 1px 1px #1e00ff;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box3 input:hover{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: yellow;
+    box-shadow: 3px 4px 3px blue;
+    color: blue;
+    text-shadow:1px 1px 1px #1e00ff;
+    padding:5px;
+    border-radius: 3px;
+}
+.content-box4 input:hover{
+    margin-left: 80px;
+    margin-top:450px;
+    background-color: yellow;
+    box-shadow: 3px 4px 3px blue;
+    color: blue;
+    text-shadow:1px 1px 1px #1e00ff;
+    padding:5px;
+    border-radius: 3px;
+}
+.neon-light{
+    position:relative;
+    background-image: url('Images/spider-man-miles-morales-pc-games-playstation-4-playstation-3840x2160-8283.png');
+    width: 900px;
+    background-size: cover;
+    height:400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 350px;
+}
+.png{
+    height:200px;
+    width:200px;
+    background-image: url('Images/—Pngtree—assasin\ gaming\ logo\ with\ sword_8209331.png');
+    background-size: cover;
+}
+.png h4{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 180px;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+#t1{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000;
+    animation:ani 10s linear infinite;
+}
+@keyframes ani{
+    10%{
+        text-shadow: 0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000,
+    0 0 80px #ff0000,
+    0 0 120px #ff0000; 
+    }
+    20%{
+        text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;  
+    }
+    40%{
+        text-shadow: 0 0 10px #1e00ff,
+        0 0 20px #1e00ff,
+        0 0 40px #1e00ff,
+        0 0 80px #1e00ff,
+        0 0 120px #1e00ff;   
+    }
+    75%{
+        text-shadow: 0 0 10px #15ff00,
+    0 0 20px #15ff00,
+    0 0 40px #15ff00,
+    0 0 80px #15ff00,
+    0 0 120px #15ff00; 
+    }
+    95%{
+        text-shadow: 0 0 10px #ffff00,
+    0 0 20px #ffff00,
+    0 0 40px #ffff00,
+    0 0 80px #ffff00,
+    0 0 120px #ffff00; 
+    }
+}
+#t1:hover{
+    color: #fff;
+    font-size: 70px;
+    text-align: center;
+    font-weight:600;
+    margin-bottom: 0;
+    letter-spacing:0.1em;
+    text-shadow: 0 0 10px #00aeff,
+    0 0 20px #00aeff,
+    0 0 40px #00aeff,
+    0 0 80px #00aeff,
+    0 0 120px #00aeff;
+}
+.white-banner{
+    height:10px;
+}
+.white-banner h4{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.main-footer{
+    width:100%;
+    background-color: black;
+}
+.main-footer .text h1,p{
+    color:white;
+    text-align: center;
+    margin-top: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    margin-left: 600px;
+}
+.footer-icons img{
+    height:50px;
+    width:50px;
+    margin-left: 40px;
+}
+.footer-icons img:hover{
+    box-shadow: 0 0 20px red;
+}
+.footer-cpr{
+    color: #fff;
+    font-size: 20px;
+}
+
+
